@@ -1,0 +1,5 @@
+
+include *txt
+recursive-include evilthatmendo *.py *.txt
+recursive-include evilthatmendo/test *.py *.txt
+prune bin

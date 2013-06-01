@@ -1,0 +1,11 @@
+
+*.pyc
+bin/
+lib/
+local/
+build/
+share/
+include/
+*.egg-info
+*.egg
+
