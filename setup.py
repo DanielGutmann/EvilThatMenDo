@@ -19,7 +19,7 @@ setup(
     keywords = "",
     url = "http://packages.python.org/EvilThatMenDo",
     packages=['evilthatmendo', 'evilthatmendo.test'],
-    install_requires=[],
+    install_requires=['pillow', 'numpy', 'scipy'],
     tests_require=['nose'],
     long_description=read('README.org'),
     test_suite='evilthatmendo.test',
